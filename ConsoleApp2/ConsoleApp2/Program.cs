@@ -21,7 +21,8 @@ if (o == "+")
 
 if (o == "-")
 {
-
+    if (sn==38)
+        Console.WriteLine("Любимое число автора");
     answ = fn - sn;
     Console.WriteLine("Результат: " + answ);
 
