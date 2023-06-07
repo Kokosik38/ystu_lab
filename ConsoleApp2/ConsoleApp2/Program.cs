@@ -29,7 +29,8 @@ if (o == "-")
 
 if (o == "*")
 {
-
+    if (fn==33)
+        Console.WriteLine("Вот это удача!" );
     answ = fn * sn;
     Console.WriteLine("Результат: " + answ);
 
@@ -37,10 +38,13 @@ if (o == "*")
 
 if (o == "/")
 {
-    if (sn==0)
+    if (sn == 0)
         Console.WriteLine("Делить на ноль нельзя");
-    answ = fn / sn;
-    Console.WriteLine("Результат: " + answ);
+    else
+    {
+        answ = fn / sn;
+        Console.WriteLine("Результат: " + answ);
+    }
 
 }
 
